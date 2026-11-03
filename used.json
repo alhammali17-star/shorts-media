@@ -1,0 +1,14 @@
+{
+  "note": "Riddles already on the channel (from channel titles + known videos). Never reuse these ideas, even reworded.",
+  "already_on_channel": [
+    {"id":"hofra","idea":"الحفرة: كل ما تاخذ منها تكبر"},
+    {"id":"tarh","idea":"سؤال الطرح (كم مرة تقدر تطرح رقم من رقم) — 02 tarh"},
+    {"id":"sibaq","idea":"تجاوزت الثاني في السباق، وين أصبحت؟ (الثاني)"},
+    {"id":"tayyara","idea":"لغز الطيارة / فخ في السؤال ✈️ (الناجين ما يندفنوش وما شابه) — avoid all plane riddles"},
+    {"id":"3ayla","idea":"لغز سر في العيلة 🤫 — avoid all family-relation riddles"},
+    {"id":"unknown-2026-10-15","idea":"لغز صعب… ركّز معايا (2026-10-15) — content unknown"},
+    {"id":"unknown-2026-10-18","idea":"سؤال بسيط لكن الجواب يصدمك (2026-10-18) — content unknown"},
+    {"id":"unknown-2026-10-19","idea":"سؤال بسيط لكن الجواب يصدمك (2026-10-19) — content unknown"}
+  ],
+  "published": []
+}

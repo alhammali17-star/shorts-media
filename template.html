@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-arabic-800-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+*{margin:0;padding:0;box-sizing:border-box}
+#brand,.layer,#card,#pill,#num,#apill,#cta3{direction:rtl}
+html,body{width:1080px;height:1920px;overflow:hidden;position:relative;background:#160930;font-family:T,sans-serif}
+#bg{position:absolute;inset:0;background:linear-gradient(180deg,#160930 0%,#2a1046 45%,#3a1460 80%,#36104e 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(140px)}
+#b1{width:1000px;height:1000px;left:-560px;top:100px;background:rgba(130,28,66,.6)}
+#b2{width:900px;height:900px;left:520px;top:1050px;background:rgba(105,40,190,.58)}
+#b3{width:700px;height:500px;left:200px;top:-380px;background:rgba(10,4,30,.9)}
+.layer{position:absolute;left:0;right:0;text-align:center}
+#brand{position:absolute;top:111px;left:50%;transform:translateX(-50%);width:330px;height:124px;border-radius:62px;background:#f7cb14;color:#1a0b2e;font-weight:700;font-size:46px;display:flex;align-items:center;justify-content:center}
+#hook1{top:700px;font-size:104px;font-weight:800;color:#fff}
+#hook2{top:880px;font-size:72px;font-weight:800;color:#f7cb14}
+#card{position:absolute;left:73px;right:73px;top:640px;height:424px;border-radius:44px;background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.08));border:3px solid rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff;font-weight:700;font-size:60px;line-height:104px;padding:0 50px}
+#pill{position:absolute;top:1130px;left:50%;transform:translateX(-50%);height:132px;padding:0 56px;border-radius:66px;background:#f3415f;color:#fff;font-size:52px;font-weight:500;display:flex;align-items:center;white-space:nowrap}
+#ring{position:absolute;left:390px;top:1350px;width:300px;height:300px}
+#num{position:absolute;left:390px;top:1350px;width:300px;height:300px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:118px;font-weight:800;padding-top:14px}
+#apill{position:absolute;top:556px;left:50%;transform:translateX(-50%);height:120px;padding:0 56px;border-radius:60px;background:#36d19a;color:#14321f;font-size:46px;font-weight:500;display:flex;align-items:center}
+#ans{top:720px;font-size:104px;font-weight:800;color:#36d19a}
+#expl{top:885px;font-size:50px;font-weight:400;color:#cbbadf;line-height:102px;padding:0 110px}
+#cta1{top:700px;font-size:106px;font-weight:800;color:#f7cb14}
+#cta2{top:855px;font-size:62px;font-weight:700;color:#fff}
+#cta3{position:absolute;top:1000px;left:50%;transform:translateX(-50%);height:128px;padding:0 60px;border-radius:64px;background:#f3415f;color:#fff;font-size:48px;font-weight:500;display:flex;align-items:center;white-space:nowrap}
+#bar{position:absolute;right:90px;top:1770px;height:11px;border-radius:6px;background:#f9cc13}
+</style>
+</head>
+<body>
+<div id="bg"></div><div class="blob" id="b1"></div><div class="blob" id="b2"></div><div class="blob" id="b3"></div>
+<div id="brand">شغّل مخك</div>
+<div class="layer" id="hook1"></div><div class="layer" id="hook2"></div>
+<div id="card"></div>
+<div id="pill">فكّر… عندك 5 ثواني</div>
+<svg id="ring" viewBox="0 0 300 300"><circle cx="150" cy="150" r="128" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="20"/><circle id="arc" cx="150" cy="150" r="128" fill="none" stroke="#f9cc13" stroke-width="20" stroke-linecap="round" transform="rotate(-90 150 150)"/></svg>
+<div id="num"></div>
+<div id="apill">الجواب</div>
+<div class="layer" id="ans"></div><div class="layer" id="expl"></div>
+<div class="layer" id="cta1">جبتها صح؟</div><div class="layer" id="cta2">اكتب في التعليقات</div><div id="cta3">اشترك لسؤال جديد كل يوم</div>
+<div id="bar"></div>
+<script>
+const $=id=>document.getElementById(id);
+const C=2*Math.PI*128;
+function clamp(x){return Math.max(0,Math.min(1,x))}
+function ease(x){x=clamp(x);return 1-Math.pow(1-x,3)}
+function win(t,a,b,fi,fo){ // visibility envelope
+  if(t<a||t>b) return 0; return Math.min(ease((t-a)/fi), fo?ease((b-t)/fo):1);}
+function show(el,o,dy,keepX){el.style.opacity=o;const tx=keepX?'translateX(-50%) ':'';el.style.transform=tx+`translateY(${(1-o)*dy}px)`;}
+window.setData=function(d){
+  $('hook1').textContent=d.hook1; $('hook2').textContent=d.hook2;
+  $('card').innerHTML=d.question.map(l=>`<div>${l}</div>`).join('');
+  $('ans').textContent=d.answer;
+  $('expl').innerHTML=d.explanation.map(l=>`<div>${l}</div>`).join('');
+  $('arc').setAttribute('stroke-dasharray',C);
+}
+window.renderAt=function(t){
+  const T=18;
+  show($('hook1'),win(t,0.15,3.0,0.5,0.3),40);
+  show($('hook2'),win(t,0.65,3.0,0.5,0.3),40);
+  const cardEnd=11.0;
+  show($('card'),win(t,3.05,cardEnd,0.45,0.25),50);
+  const cd=win(t,5.75,cardEnd,0.3,0.25);
+  show($('pill'),cd,30,true);
+  $('ring').style.opacity=cd; $('num').style.opacity=cd;
+  if(t>=5.75){
+    const left=clamp((10.95-t)/5.2); // remaining fraction
+    $('arc').setAttribute('stroke-dashoffset',C*(1-left));
+    const n=Math.min(5,Math.max(1,Math.ceil(10.95-t-0.2)));
+    $('num').textContent=n;
+  }
+  show($('apill'),win(t,11.1,15.0,0.35,0.25),30,true);
+  show($('ans'),win(t,11.55,15.0,0.45,0.25),40);
+  show($('expl'),win(t,11.9,15.0,0.45,0.25),30);
+  show($('cta1'),win(t,15.1,18.5,0.6,0),40);
+  show($('cta2'),win(t,15.5,18.5,0.5,0),30);
+  show($('cta3'),win(t,15.75,18.5,0.5,0),30,true);
+  $('bar').style.width=(900*clamp(t/T))+'px';
+}
+</script>
+</body>
+</html>
