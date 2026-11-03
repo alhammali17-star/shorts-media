@@ -59,6 +59,18 @@ def main():
         b.close()
     if ff.returncode != 0:
         sys.exit("ffmpeg failed")
+    add_audio(out)
+
+
+def add_audio(out):
+    """Mux the channel soundtrack (assets/track.wav, made by make_audio.py) into the video."""
+    track = HERE / "assets" / "track.wav"
+    if not track.exists():
+        subprocess.run([sys.executable, str(HERE / "make_audio.py")], check=True)
+    tmp = out.with_suffix(".tmp.mp4")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-i", str(track), "-c:v", "copy",
+                    "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(tmp)], check=True)
+    tmp.replace(out)
 
 
 if __name__ == "__main__":

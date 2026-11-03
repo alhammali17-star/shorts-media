@@ -11,6 +11,7 @@ Goal: publish TWO new riddle Shorts per day (18:00 and 23:00 Africa/Tripoli — 
 6. **أسماء — publisher**:
    - Title ≤ 70 chars in the style that works (see LEARNINGS.md; e.g. "اقرا السؤال كويس… فيه فخ!", "سؤال سهل لكن أغلب الناس تطيح فيه!"), not one of the last 3 titles, one emoji.
    - Description: `جاوب في التعليقات قبل ما يطلع الحل 👇\n#shorts #ألغاز #لغز #شغل_مخك #تحدي`
+   - render.py adds the channel soundtrack (assets/track.wav, original, royalty-free) automatically; check the mp4 has an audio stream.
    - Commit + push the mp4 and updated used.json/bank.json to `main`; confirm `https://raw.githubusercontent.com/alhammali17-star/shorts-media/main/videos/<file>.mp4` returns 200.
    - Metricool `createScheduledPost`: blogId `7526793`, providers youtube, youtubeData {title, type:"short", privacy:"public", madeForKids:false, category:"ENTERTAINMENT"}, text = description, media = [raw URL], autoPublish true, one post per video: first at today 18:00, second at today 23:00 Africa/Tripoli (if a slot is already past, now + 20 minutes; never two posts less than 3 hours apart unless both slots passed). Use two different title styles for the two videos.
    - Append to `used.json.published`: {date, id, title, file, plannerUrl}; commit + push.
