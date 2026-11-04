@@ -32,6 +32,16 @@ html,body{width:1080px;height:1920px;overflow:hidden;position:relative;backgroun
 #cta2{top:855px;font-size:62px;font-weight:700;color:#fff}
 #cta3{position:absolute;top:1000px;left:50%;transform:translateX(-50%);height:128px;padding:0 60px;border-radius:64px;background:#f3415f;color:#fff;font-size:48px;font-weight:500;display:flex;align-items:center;white-space:nowrap}
 #bar{position:absolute;right:90px;top:1770px;height:11px;border-radius:6px;background:#f9cc13}
+
+/* kind: odd (find the different symbol) */
+#grid{position:absolute;left:73px;right:73px;top:470px;height:640px;border-radius:44px;background:linear-gradient(135deg,rgba(255,255,255,.14),rgba(255,255,255,.06));border:3px solid rgba(255,255,255,.16);display:grid;padding:26px;direction:ltr;opacity:0}
+#grid span{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:72px;border-radius:22px}
+#grid span.hit{background:#36d19a;color:#14321f;box-shadow:0 0 0 8px rgba(54,209,154,.35)}
+body.odd #apill{top:1170px} body.odd #ans{top:1310px;font-size:92px} body.odd #expl{top:1445px}
+body.odd #pill{top:1160px} body.odd #ring,body.odd #num{top:1340px}
+/* kind: tip (brain tip) */
+#steps{top:1300px;color:#fff;font-weight:700;font-size:54px;line-height:96px;padding:0 90px;direction:rtl}
+#steps b{color:#f7cb14}
 </style>
 </head>
 <body>
@@ -39,6 +49,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;position:relative;backgroun
 <div id="brand">شغّل مخك</div>
 <div class="layer" id="hook1"></div><div class="layer" id="hook2"></div>
 <div id="card"></div>
+<div id="grid"></div>
+<div class="layer" id="steps"></div>
 <div id="pill">فكّر… عندك 5 ثواني</div>
 <svg id="ring" viewBox="0 0 300 300"><circle cx="150" cy="150" r="128" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="20"/><circle id="arc" cx="150" cy="150" r="128" fill="none" stroke="#f9cc13" stroke-width="20" stroke-linecap="round" transform="rotate(-90 150 150)"/></svg>
 <div id="num"></div>
@@ -55,18 +67,31 @@ function win(t,a,b,fi,fo){ // visibility envelope
   if(t<a||t>b) return 0; return Math.min(ease((t-a)/fi), fo?ease((b-t)/fo):1);}
 function show(el,o,dy,keepX){el.style.opacity=o;const tx=keepX?'translateX(-50%) ':'';el.style.transform=tx+`translateY(${(1-o)*dy}px)`;}
 window.setData=function(d){
+  window.K=d.kind||'riddle'; document.body.className=K;
   $('hook1').textContent=d.hook1; $('hook2').textContent=d.hook2;
-  $('card').innerHTML=d.question.map(l=>`<div>${l}</div>`).join('');
+  $('card').innerHTML=(d.question||[]).map(l=>`<div>${l}</div>`).join('');
   $('ans').textContent=d.answer;
-  $('expl').innerHTML=d.explanation.map(l=>`<div>${l}</div>`).join('');
+  $('expl').innerHTML=(d.explanation||[]).map(l=>`<div>${l}</div>`).join('');
   $('arc').setAttribute('stroke-dasharray',C);
+  if(d.pill) $('pill').textContent=d.pill;
+  if(d.apill) $('apill').textContent=d.apill;
+  if(d.cta) {$('cta1').textContent=d.cta[0];$('cta2').textContent=d.cta[1];$('cta3').textContent=d.cta[2];}
+  if(K==='odd'){const g=d.grid,el=$('grid');el.style.gridTemplateColumns=`repeat(${g.cols},1fr)`;el.style.gridTemplateRows=`repeat(${g.rows},1fr)`;
+    let h='';for(let r=0;r<g.rows;r++)for(let c=0;c<g.cols;c++){const o=(r===g.r&&c===g.c);h+=`<span${o?' id="hitcell"':''}>${o?g.odd:g.base}</span>`}el.innerHTML=h;}
+  if(K==='tip') $('steps').innerHTML=(d.steps||[]).map((l,i)=>`<div><b>${i+1}.</b> ${l}</div>`).join('');
 }
 window.renderAt=function(t){
   const T=18;
   show($('hook1'),win(t,0.15,3.0,0.5,0.3),40);
   show($('hook2'),win(t,0.65,3.0,0.5,0.3),40);
   const cardEnd=11.0;
-  show($('card'),win(t,3.05,cardEnd,0.45,0.25),50);
+  if(K==='odd'){show($('card'),0,0);show($('grid'),win(t,3.05,15.0,0.45,0.25),50);
+    const hc=$('hitcell'); if(hc) hc.className=t>=11.1?'hit':'';}
+  else show($('card'),win(t,3.05,K==='tip'?15.0:cardEnd,0.45,0.25),50);
+  if(K==='tip'){show($('pill'),win(t,5.2,15.0,0.3,0.25),30,true);$('ring').style.opacity=0;$('num').style.opacity=0;
+    show($('steps'),win(t,6.0,15.0,0.5,0.25),30);show($('apill'),0,0,true);show($('ans'),0,0);show($('expl'),0,0);
+    show($('cta1'),win(t,15.1,18.5,0.6,0),40);show($('cta2'),win(t,15.5,18.5,0.5,0),30);show($('cta3'),win(t,15.75,18.5,0.5,0),30,true);
+    $('bar').style.width=(900*clamp(t/T))+'px';return;}
   const cd=win(t,5.75,cardEnd,0.3,0.25);
   show($('pill'),cd,30,true);
   $('ring').style.opacity=cd; $('num').style.opacity=cd;
