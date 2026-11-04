@@ -7,6 +7,9 @@ Goal: publish THREE new Shorts per day at 13:00, 16:00 and 19:00 Africa/Tripoli 
 - Every Sunday the CEO compares 16:00 views with the riddle slots; if the quiz loses 2 weeks running, try another brain format (true/false fact, math trick, memory tip) in a new template file — never edit template.html.
 - Re-check `getBestTimeToPostByNetwork` (youtube, next 7 days) every Sunday; if the top hours move, change the three slots here and log why.
 
+## Before making anything
+Call Metricool `getScheduledPosts` (blogId 7526793, today, Africa/Tripoli). A slot that already has a post is filled — make videos only for the empty slots (e.g. on 2026-11-05 the 13:00 riddle «الساعة» is already scheduled).
+
 ## Team, in order (each one: status working → do the work → done/error, per OFFICE.md)
 1. **رحاب — trend researcher** (free sources only: WebSearch for current Arabic riddle/quiz Shorts trends, title hooks, formats). Write 3 short findings in her `task`/`thinking`. No vidIQ credits.
 2. **طارق — trend filter**: keep only what fits the channel (family-safe riddle, Libyan dialect, our fixed template, not a repeat). Output: one angle for today (riddle type + title hook).

@@ -66,12 +66,22 @@
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-7151163657744202950"
     },
     {
-      "date": "2026-11-04",
-      "slot": "23:00",
+      "date": "2026-11-05",
+      "slot": "13:00",
       "id": "sa3a",
       "title": "أغلب الناس تطيح في السؤال هذا… وانت؟ ⏰",
       "file": "videos/2026-11-04_sa3a.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302"
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302",
+      "note": "moved from 23:00 (low audience) on 2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "slot": "21:00",
+      "id": "mukh_taqa",
+      "format": "quiz",
+      "title": "سؤال على مخك نفسه… 90% يغلطوا فيه! 🧠",
+      "file": "videos/2026-11-04_mukh_taqa.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1582630064518479875"
     }
   ]
 }
