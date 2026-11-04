@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-arabic-800-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;position:relative;background:#160930;font-family:T,sans-serif;direction:rtl}
+#bg{position:absolute;inset:0;background:linear-gradient(180deg,#160930 0%,#2a1046 45%,#3a1460 80%,#36104e 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(140px)}
+#b1{width:1000px;height:1000px;left:-560px;top:100px;background:rgba(130,28,66,.6)}
+#b2{width:900px;height:900px;left:520px;top:1050px;background:rgba(105,40,190,.58)}
+#b3{width:700px;height:500px;left:200px;top:-380px;background:rgba(10,4,30,.9)}
+.layer{position:absolute;left:0;right:0;text-align:center}
+#brand{position:absolute;top:111px;left:50%;transform:translateX(-50%);width:330px;height:124px;border-radius:62px;background:#f7cb14;color:#1a0b2e;font-weight:700;font-size:46px;display:flex;align-items:center;justify-content:center}
+#tag{position:absolute;top:300px;left:50%;transform:translateX(-50%);height:96px;padding:0 44px;border-radius:48px;background:rgba(255,255,255,.12);color:#f7cb14;font-size:42px;font-weight:700;display:flex;align-items:center;white-space:nowrap}
+#hook1{top:700px;font-size:104px;font-weight:800;color:#fff}
+#hook2{top:880px;font-size:72px;font-weight:800;color:#f7cb14}
+#card{position:absolute;left:73px;right:73px;top:450px;height:380px;border-radius:44px;background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.08));border:3px solid rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff;font-weight:700;font-size:60px;line-height:100px;padding:0 50px;text-align:center}
+.opt{position:absolute;left:120px;right:120px;height:140px;border-radius:70px;background:rgba(255,255,255,.1);border:3px solid rgba(255,255,255,.2);display:flex;align-items:center;color:#fff;font-size:56px;font-weight:700;padding:0 24px 0 40px;transition:none}
+.opt .l{width:96px;height:96px;border-radius:50%;background:#f7cb14;color:#1a0b2e;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:800;margin-left:34px;flex:none;padding-top:6px}
+#o0{top:880px}#o1{top:1050px}#o2{top:1220px}
+#ring{position:absolute;left:420px;top:1420px;width:240px;height:240px}
+#num{position:absolute;left:420px;top:1420px;width:240px;height:240px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:100px;font-weight:800;padding-top:12px}
+#expl{top:1420px;font-size:48px;font-weight:400;color:#cbbadf;line-height:92px;padding:0 110px}
+#cta1{top:700px;font-size:106px;font-weight:800;color:#f7cb14}
+#cta2{top:855px;font-size:62px;font-weight:700;color:#fff}
+#cta3{position:absolute;top:1000px;left:50%;transform:translateX(-50%);height:128px;padding:0 60px;border-radius:64px;background:#f3415f;color:#fff;font-size:48px;font-weight:500;display:flex;align-items:center;white-space:nowrap}
+#bar{position:absolute;right:90px;top:1770px;height:11px;border-radius:6px;background:#f9cc13}
+</style>
+</head>
+<body>
+<div id="bg"></div><div class="blob" id="b1"></div><div class="blob" id="b2"></div><div class="blob" id="b3"></div>
+<div id="brand">شغّل مخك</div>
+<div id="tag"></div>
+<div class="layer" id="hook1"></div><div class="layer" id="hook2"></div>
+<div id="card"></div>
+<div class="opt" id="o0"><span class="l">أ</span><span class="t"></span></div>
+<div class="opt" id="o1"><span class="l">ب</span><span class="t"></span></div>
+<div class="opt" id="o2"><span class="l">ج</span><span class="t"></span></div>
+<svg id="ring" viewBox="0 0 300 300"><circle cx="150" cy="150" r="128" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="20"/><circle id="arc" cx="150" cy="150" r="128" fill="none" stroke="#f9cc13" stroke-width="20" stroke-linecap="round" transform="rotate(-90 150 150)"/></svg>
+<div id="num"></div>
+<div class="layer" id="expl"></div>
+<div class="layer" id="cta1">جبتها صح؟</div><div class="layer" id="cta2">اكتب الحرف في التعليقات</div><div id="cta3">اشترك لسؤال جديد كل يوم</div>
+<div id="bar"></div>
+<script>
+const $=id=>document.getElementById(id);
+const C=2*Math.PI*128;let CORRECT=0;
+function clamp(x){return Math.max(0,Math.min(1,x))}
+function ease(x){x=clamp(x);return 1-Math.pow(1-x,3)}
+function win(t,a,b,fi,fo){if(t<a||t>b) return 0; return Math.min(ease((t-a)/fi), fo?ease((b-t)/fo):1);}
+function show(el,o,dy,keepX){el.style.opacity=o;const tx=keepX?'translateX(-50%) ':'';el.style.transform=tx+`translateY(${(1-o)*dy}px)`;}
+window.setData=function(d){
+  $('hook1').textContent=d.hook1; $('hook2').textContent=d.hook2;
+  $('tag').textContent=d.tag||'سؤال اختيارات';
+  $('card').innerHTML=d.question.map(l=>`<div>${l}</div>`).join('');
+  d.options.forEach((o,i)=>{$('o'+i).querySelector('.t').textContent=o;});
+  CORRECT=d.correct;
+  $('expl').innerHTML=d.explanation.map(l=>`<div>${l}</div>`).join('');
+  $('arc').setAttribute('stroke-dasharray',C);
+}
+window.renderAt=function(t){
+  const T=18;
+  show($('hook1'),win(t,0.15,3.0,0.5,0.3),40);
+  show($('hook2'),win(t,0.65,3.0,0.5,0.3),40);
+  const end=15.0;
+  show($('tag'),win(t,3.05,end,0.45,0.25),30,true);
+  show($('card'),win(t,3.05,end,0.45,0.25),50);
+  for(let i=0;i<3;i++){
+    const el=$('o'+i); let o=win(t,3.6+i*0.35,end,0.4,0.25);
+    const rev=t>=11.1;
+    if(rev){ if(i===CORRECT){el.style.background='#36d19a';el.style.borderColor='#36d19a';el.style.color='#14321f';}
+             else{o*=0.3;} }
+    else{el.style.background='rgba(255,255,255,.1)';el.style.borderColor='rgba(255,255,255,.2)';el.style.color='#fff';}
+    show(el,o,30);
+  }
+  const cd=win(t,5.75,11.0,0.3,0.2);
+  $('ring').style.opacity=cd; $('num').style.opacity=cd;
+  if(t>=5.75){
+    const left=clamp((10.95-t)/5.2);
+    $('arc').setAttribute('stroke-dashoffset',C*(1-left));
+    $('num').textContent=Math.min(5,Math.max(1,Math.ceil(10.95-t-0.2)));
+  }
+  show($('expl'),win(t,11.5,end,0.45,0.25),30);
+  show($('cta1'),win(t,15.1,18.5,0.6,0),40);
+  show($('cta2'),win(t,15.5,18.5,0.5,0),30);
+  show($('cta3'),win(t,15.75,18.5,0.5,0),30,true);
+  $('bar').style.width=(900*clamp(t/T))+'px';
+}
+</script>
+</body>
+</html>

@@ -34,7 +34,7 @@ def main():
             kw["executable_path"] = exe
         b = p.chromium.launch(**kw)
         pg = b.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
-        pg.goto((HERE / "template.html").as_uri())
+        pg.goto((HERE / data.get("template", "template.html")).as_uri())
         pg.evaluate("document.fonts.ready")
         pg.evaluate("d => setData(d)", data)
         pg.wait_for_timeout(300)
