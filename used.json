@@ -82,6 +82,24 @@
       "title": "سؤال على مخك نفسه… 90% يغلطوا فيه! 🧠",
       "file": "videos/2026-11-04_mukh_taqa.mp4",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1582630064518479875"
+    },
+    {
+      "date": "2026-11-05",
+      "slot": "16:00",
+      "kind": "tip",
+      "id": "recall",
+      "title": "حيلة صغيرة تخلي مخك يحفظ أي حاجة 🧠",
+      "file": "videos/2026-11-05_recall.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8236134183353534637"
+    },
+    {
+      "date": "2026-11-05",
+      "slot": "19:00",
+      "kind": "quiz",
+      "id": "aasima_ostralia",
+      "title": "عاصمة أستراليا… أغلب الناس تطيح فيها! 🌏",
+      "file": "videos/2026-11-05_aasima_ostralia.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=2478898048438650920"
     }
   ]
 }
