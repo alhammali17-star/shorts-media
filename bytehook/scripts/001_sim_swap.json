@@ -1,0 +1,18 @@
+{
+  "id": "sim_swap_sms_2fa",
+  "title": "Your SMS login code can be stolen #shorts",
+  "description": "SIM swap scams let attackers receive your SMS verification codes. Switch your 2FA to an authenticator app instead.\n\n#cybersecurity #2fa #scam #techtips #shorts",
+  "tag": "CYBERSECURITY",
+  "hook": "Your SMS login code<br>can be <em>stolen</em>.",
+  "sub": "Here's how it happens...",
+  "points_title": "The SIM swap scam",
+  "points": [
+    {"t": "They call your carrier", "d": "pretending to be you, using leaked info."},
+    {"t": "Your number moves", "d": "to a SIM card in their phone."},
+    {"t": "Your codes go to them", "d": "every SMS login code, every reset link."}
+  ],
+  "fix_label": "THE FIX",
+  "fix": "Use an <span style=\"color:#39ff88\">authenticator app</span><br>instead of SMS",
+  "fix_sub": "Google Authenticator, Microsoft Authenticator, Authy...",
+  "question": "Do you still use SMS codes? <span>Yes or No</span> in the comments"
+}
