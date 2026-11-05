@@ -1,0 +1,1 @@
+{"id": "aasima_ostralia", "template": "template_quiz.html", "tag": "سؤال اختيارات", "hook1": "سؤال سهل…", "hook2": "لكن فيه فخ!", "question": ["شن هي عاصمة", "أستراليا؟"], "options": ["سيدني", "ملبورن", "كانبيرا"], "correct": 2, "explanation": ["مش سيدني زي ما يظنوا واجد", "العاصمة كانبيرا"]}
