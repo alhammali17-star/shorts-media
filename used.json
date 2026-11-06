@@ -100,6 +100,33 @@
       "title": "عاصمة أستراليا… أغلب الناس تطيح فيها! 🌏",
       "file": "videos/2026-11-05_aasima_ostralia.mp4",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=2478898048438650920"
+    },
+    {
+      "date": "2026-11-06",
+      "slot": "13:00",
+      "kind": "riddle",
+      "id": "fouta",
+      "title": "فيه فخ صغير… تقدر تحله قبل 5 ثواني؟ 🧺",
+      "file": "videos/2026-11-06_fouta.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1177131732231667778"
+    },
+    {
+      "date": "2026-11-06",
+      "slot": "16:00",
+      "kind": "tip",
+      "id": "pomodoro",
+      "title": "حيلة 25 دقيقة تخلي مخك يركّز أكثر 🍅",
+      "file": "videos/2026-11-06_pomodoro.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8371165595929824994"
+    },
+    {
+      "date": "2026-11-06",
+      "slot": "19:00",
+      "kind": "odd",
+      "id": "odd_ra_zay",
+      "title": "لقى الحرف المختلف في 5 ثواني 👀",
+      "file": "videos/2026-11-06_odd.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1787252251356842653"
     }
   ]
 }
