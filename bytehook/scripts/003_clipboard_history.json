@@ -1,0 +1,18 @@
+{
+  "id": "windows_clipboard_history",
+  "title": "Your PC remembers everything you copy #shorts",
+  "description": "Windows has a built-in clipboard history. Press Windows key + V to see and paste things you copied earlier, and pin the ones you use often.\n\n#windows #techtips #pctips #productivity #shorts",
+  "tag": "TECH TRICK",
+  "hook": "Your PC remembers<br>all you <em>copy</em>.",
+  "sub": "Most people never open it...",
+  "points_title": "Windows clipboard history",
+  "points": [
+    {"t": "Press Windows + V", "d": "and turn on clipboard history once."},
+    {"t": "Copy like normal", "d": "it keeps your recent text and images."},
+    {"t": "Pin what you reuse", "d": "pinned items stay even after a restart."}
+  ],
+  "fix_label": "THE SHORTCUT",
+  "fix": "Press <span style=\"color:#39ff88\">Windows + V</span><br>to paste older copies",
+  "fix_sub": "Clear it anytime from the same panel.",
+  "question": "Did you know this shortcut? <span>Yes or No</span> in the comments"
+}

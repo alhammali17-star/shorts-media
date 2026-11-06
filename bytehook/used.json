@@ -1,3 +1,5 @@
 [
-  {"id": "sim_swap_sms_2fa", "date": "2026-11-05", "hook": "Your SMS login code can be stolen.", "category": "CYBERSECURITY", "scheduled": "published 2026-11-05 22:50"}
+  {"id": "sim_swap_sms_2fa", "date": "2026-11-05", "hook": "Your SMS login code can be stolen.", "category": "CYBERSECURITY", "scheduled": "published 2026-11-05 22:50"},
+  {"id": "fake_qr_code_stickers", "date": "2026-11-06", "hook": "Don't scan that parking QR code.", "category": "CYBERSECURITY", "scheduled": "2026-11-06 19:00"},
+  {"id": "windows_clipboard_history", "date": "2026-11-06", "hook": "Your PC remembers all you copy.", "category": "TECH", "scheduled": "2026-11-06 22:00"}
 ]

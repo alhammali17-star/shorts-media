@@ -1,0 +1,18 @@
+{
+  "id": "fake_qr_code_stickers",
+  "title": "That QR code could be a trap #shorts",
+  "description": "Scammers stick fake QR codes over real ones on parking meters and posters to steal card details. Pay through the official app or type the website yourself.\n\n#cybersecurity #qrcode #scam #privacy #shorts",
+  "tag": "CYBERSECURITY",
+  "hook": "Don't scan that<br>parking <em>QR code</em>.",
+  "sub": "It might not be the real one...",
+  "points_title": "The fake QR sticker scam",
+  "points": [
+    {"t": "A sticker goes on top", "d": "covering the real code on the meter."},
+    {"t": "You land on a copy", "d": "a fake payment page that looks official."},
+    {"t": "Your card is stolen", "d": "they keep the details you typed in."}
+  ],
+  "fix_label": "THE FIX",
+  "fix": "Pay in the <span style=\"color:#39ff88\">official app</span><br>or type the site yourself",
+  "fix_sub": "Look for stickers. Check the link first.",
+  "question": "Have you ever seen a fake QR sticker? <span>Yes or No</span> in the comments"
+}
