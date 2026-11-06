@@ -7,6 +7,7 @@ Owner is Libyan; send him messages in Libyan Arabic only.
 Two Shorts per day, scheduled in YouTube Studio (free) for **19:00 and 22:00 Africa/Tripoli** the same day (midday / afternoon US Eastern).
 
 ## Steps
+0. If `used.json` already has 2 entries dated today (Africa/Tripoli), today is done: end with one short line, do nothing else.
 1. `cd bytehook && python3 make_audio.py` only if `track.wav` is missing.
 2. Read `used.json`. Pick 2 new topics that are NOT in it and not close duplicates. Rotate categories: one CYBERSECURITY (scams, accounts, privacy) and one AI or TECH (a tool feature, a phone/PC trick). Only facts you are sure are true and stable; if in doubt, pick another topic. No medical, legal or financial advice. Never name a person.
 3. Write each script as `scripts/NNN_slug.json` (next number) with the same keys as `scripts/001_sim_swap.json`:
