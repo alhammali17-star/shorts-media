@@ -1,132 +1,159 @@
 {
-  "note": "Riddles already on the channel — VERIFIED by watching every channel video on 2026-11-03. Never reuse these ideas, even reworded.",
-  "already_on_channel": [
-    {
-      "id": "tuffahat",
-      "idea": "عندك 3 تفاحات خذيت منهم 2، كم تفاحة عندك؟ (02 tarh, 2026-10-14)"
-    },
-    {
-      "id": "hofra",
-      "idea": "شن الحاجة اللي كل ما تاخذ منها تكبر؟ الحفرة (2026-10-15)"
-    },
-    {
-      "id": "shhur28",
-      "idea": "كم شهر في السنة فيه 28 يوم؟ (2026-10-18)"
-    },
-    {
-      "id": "tarh",
-      "idea": "كم مرة تقدر تطرح 5 من 25؟ (2026-10-19)"
-    },
-    {
-      "id": "tayyara",
-      "idea": "طيارة طاحت على الحدود بين ليبيا وتونس، وين يدفنوا الناجين؟ (2026-10-20) — avoid all plane riddles"
-    },
-    {
-      "id": "3ayla",
-      "idea": "عمي سالم عنده 4 بنات وكل بنت عندها خو واحد، كم عيل عند عمي سالم؟ (2026-10-22) — avoid all family-relation riddles"
-    },
-    {
-      "id": "sibaq",
-      "idea": "في سباق تجاوزت صاحب المركز الثاني، في أي مركز أصبحت؟ (2026-10-23)"
-    },
-    {
-      "id": "tilto-promo",
-      "idea": "Tilto game promo video (2026-10-19), not a riddle"
-    }
-  ],
-  "published": [
-    {
-      "date": "2026-11-03",
-      "slot": "18:00",
-      "id": "del",
-      "title": "اقرا السؤال كويس… فيه فخ! 🌊",
-      "file": "videos/2026-11-03_del.mp4"
-    },
-    {
-      "date": "2026-11-03",
-      "slot": "23:00",
-      "id": "dik",
-      "title": "سؤال سهل لكن أغلب الناس تطيح فيه! 🐓",
-      "file": "videos/2026-11-03_dik.mp4"
-    },
-    {
-      "date": "2026-11-03",
-      "slot": "18:50",
-      "id": "del",
-      "title": "اقرا السؤال كويس… فيه فخ! 🌊",
-      "file": "videos/2026-11-03_del_music.mp4",
-      "note": "same riddle re-posted with music at owner's request"
-    },
-    {
-      "date": "2026-11-04",
-      "slot": "18:00",
-      "id": "mosht",
-      "title": "لغز فيه فخ… ركّز قبل ما تجاوب! 🤔",
-      "file": "videos/2026-11-04_mosht.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-7151163657744202950"
-    },
-    {
-      "date": "2026-11-05",
-      "slot": "13:00",
-      "id": "sa3a",
-      "title": "أغلب الناس تطيح في السؤال هذا… وانت؟ ⏰",
-      "file": "videos/2026-11-04_sa3a.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302",
-      "note": "moved from 23:00 (low audience) on 2026-11-04"
-    },
-    {
-      "date": "2026-11-04",
-      "slot": "21:00",
-      "id": "mukh_taqa",
-      "format": "quiz",
-      "title": "سؤال على مخك نفسه… 90% يغلطوا فيه! 🧠",
-      "file": "videos/2026-11-04_mukh_taqa.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1582630064518479875"
-    },
-    {
-      "date": "2026-11-05",
-      "slot": "16:00",
-      "kind": "tip",
-      "id": "recall",
-      "title": "حيلة صغيرة تخلي مخك يحفظ أي حاجة 🧠",
-      "file": "videos/2026-11-05_recall.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8236134183353534637"
-    },
-    {
-      "date": "2026-11-05",
-      "slot": "19:00",
-      "kind": "quiz",
-      "id": "aasima_ostralia",
-      "title": "عاصمة أستراليا… أغلب الناس تطيح فيها! 🌏",
-      "file": "videos/2026-11-05_aasima_ostralia.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=2478898048438650920"
-    },
-    {
-      "date": "2026-11-06",
-      "slot": "13:00",
-      "kind": "riddle",
-      "id": "fouta",
-      "title": "فيه فخ صغير… تقدر تحله قبل 5 ثواني؟ 🧺",
-      "file": "videos/2026-11-06_fouta.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1177131732231667778"
-    },
-    {
-      "date": "2026-11-06",
-      "slot": "16:00",
-      "kind": "tip",
-      "id": "pomodoro",
-      "title": "حيلة 25 دقيقة تخلي مخك يركّز أكثر 🍅",
-      "file": "videos/2026-11-06_pomodoro.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8371165595929824994"
-    },
-    {
-      "date": "2026-11-06",
-      "slot": "19:00",
-      "kind": "odd",
-      "id": "odd_ra_zay",
-      "title": "لقى الحرف المختلف في 5 ثواني 👀",
-      "file": "videos/2026-11-06_odd.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1787252251356842653"
-    }
-  ]
+ "note": "Riddles already on the channel — VERIFIED by watching every channel video on 2026-11-03. Never reuse these ideas, even reworded.",
+ "already_on_channel": [
+  {
+   "id": "tuffahat",
+   "idea": "عندك 3 تفاحات خذيت منهم 2، كم تفاحة عندك؟ (02 tarh, 2026-10-14)"
+  },
+  {
+   "id": "hofra",
+   "idea": "شن الحاجة اللي كل ما تاخذ منها تكبر؟ الحفرة (2026-10-15)"
+  },
+  {
+   "id": "shhur28",
+   "idea": "كم شهر في السنة فيه 28 يوم؟ (2026-10-18)"
+  },
+  {
+   "id": "tarh",
+   "idea": "كم مرة تقدر تطرح 5 من 25؟ (2026-10-19)"
+  },
+  {
+   "id": "tayyara",
+   "idea": "طيارة طاحت على الحدود بين ليبيا وتونس، وين يدفنوا الناجين؟ (2026-10-20) — avoid all plane riddles"
+  },
+  {
+   "id": "3ayla",
+   "idea": "عمي سالم عنده 4 بنات وكل بنت عندها خو واحد، كم عيل عند عمي سالم؟ (2026-10-22) — avoid all family-relation riddles"
+  },
+  {
+   "id": "sibaq",
+   "idea": "في سباق تجاوزت صاحب المركز الثاني، في أي مركز أصبحت؟ (2026-10-23)"
+  },
+  {
+   "id": "tilto-promo",
+   "idea": "Tilto game promo video (2026-10-19), not a riddle"
+  }
+ ],
+ "published": [
+  {
+   "date": "2026-11-03",
+   "slot": "18:00",
+   "id": "del",
+   "title": "اقرا السؤال كويس… فيه فخ! 🌊",
+   "file": "videos/2026-11-03_del.mp4"
+  },
+  {
+   "date": "2026-11-03",
+   "slot": "23:00",
+   "id": "dik",
+   "title": "سؤال سهل لكن أغلب الناس تطيح فيه! 🐓",
+   "file": "videos/2026-11-03_dik.mp4"
+  },
+  {
+   "date": "2026-11-03",
+   "slot": "18:50",
+   "id": "del",
+   "title": "اقرا السؤال كويس… فيه فخ! 🌊",
+   "file": "videos/2026-11-03_del_music.mp4",
+   "note": "same riddle re-posted with music at owner's request"
+  },
+  {
+   "date": "2026-11-04",
+   "slot": "18:00",
+   "id": "mosht",
+   "title": "لغز فيه فخ… ركّز قبل ما تجاوب! 🤔",
+   "file": "videos/2026-11-04_mosht.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-7151163657744202950"
+  },
+  {
+   "date": "2026-11-05",
+   "slot": "13:00",
+   "id": "sa3a",
+   "title": "أغلب الناس تطيح في السؤال هذا… وانت؟ ⏰",
+   "file": "videos/2026-11-04_sa3a.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302",
+   "note": "moved from 23:00 (low audience) on 2026-11-04"
+  },
+  {
+   "date": "2026-11-04",
+   "slot": "21:00",
+   "id": "mukh_taqa",
+   "format": "quiz",
+   "title": "سؤال على مخك نفسه… 90% يغلطوا فيه! 🧠",
+   "file": "videos/2026-11-04_mukh_taqa.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1582630064518479875"
+  },
+  {
+   "date": "2026-11-05",
+   "slot": "16:00",
+   "kind": "tip",
+   "id": "recall",
+   "title": "حيلة صغيرة تخلي مخك يحفظ أي حاجة 🧠",
+   "file": "videos/2026-11-05_recall.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8236134183353534637"
+  },
+  {
+   "date": "2026-11-05",
+   "slot": "19:00",
+   "kind": "quiz",
+   "id": "aasima_ostralia",
+   "title": "عاصمة أستراليا… أغلب الناس تطيح فيها! 🌏",
+   "file": "videos/2026-11-05_aasima_ostralia.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=2478898048438650920"
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "13:00",
+   "kind": "riddle",
+   "id": "fouta",
+   "title": "فيه فخ صغير… تقدر تحله قبل 5 ثواني؟ 🧺",
+   "file": "videos/2026-11-06_fouta.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1177131732231667778"
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "16:00",
+   "kind": "tip",
+   "id": "pomodoro",
+   "title": "حيلة 25 دقيقة تخلي مخك يركّز أكثر 🍅",
+   "file": "videos/2026-11-06_pomodoro.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=8371165595929824994"
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "19:00",
+   "kind": "odd",
+   "id": "odd_ra_zay",
+   "title": "لقى الحرف المختلف في 5 ثواني 👀",
+   "file": "videos/2026-11-06_odd.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1787252251356842653"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "13:00",
+   "kind": "riddle",
+   "id": "sada",
+   "title": "أغلب الناس تطيح فيه… شن اللي يجاوبك بكل اللغات؟ 🗣️",
+   "file": "videos/2026-11-07_sada.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-5051552108299926268"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "16:00",
+   "kind": "tip",
+   "id": "teach",
+   "title": "اشرح الدرس لحد صغير… وشوف كيف يفهمه مخك 🧠",
+   "file": "videos/2026-11-07_teach.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-4627489989357452851"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "19:00",
+   "kind": "quiz",
+   "id": "akhtabut",
+   "title": "الأخطبوط قداش عنده قلب؟ أغلب الناس تطيح فيها! 🐙",
+   "file": "videos/2026-11-07_akhtabut.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=439467541505526277"
+  }
+ ]
 }
