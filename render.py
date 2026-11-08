@@ -9,6 +9,8 @@ from playwright.sync_api import sync_playwright
 
 HERE = pathlib.Path(__file__).resolve().parent
 FPS, DUR = 30, 18.0
+# per-template length and soundtrack (v2 = owner-approved 13 s fast-hook layout, 2026-11-08)
+V2 = {"template_v2.html": (13.0, "track_v2.wav")}
 
 
 def chrome():
@@ -20,7 +22,10 @@ def chrome():
 
 
 def main():
+    global DUR
     data = json.loads(pathlib.Path(sys.argv[1]).read_text(encoding="utf-8"))
+    dur, track = V2.get(data.get("template", "template.html"), (18.0, "track.wav"))
+    DUR = dur
     data.setdefault("hook1", "لغز صعب…")
     data.setdefault("hook2", "ركّز معايا!")
     out = pathlib.Path(sys.argv[2])
@@ -59,14 +64,14 @@ def main():
         b.close()
     if ff.returncode != 0:
         sys.exit("ffmpeg failed")
-    add_audio(out)
+    add_audio(out, track)
 
 
-def add_audio(out):
+def add_audio(out, name="track.wav"):
     """Mux the channel soundtrack (assets/track.wav, made by make_audio.py) into the video."""
-    track = HERE / "assets" / "track.wav"
+    track = HERE / "assets" / name
     if not track.exists():
-        subprocess.run([sys.executable, str(HERE / "make_audio.py")], check=True)
+        subprocess.run([sys.executable, str(HERE / "make_audio.py")] + (["v2"] if name != "track.wav" else []), check=True)
     tmp = out.with_suffix(".tmp.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(out), "-i", str(track), "-c:v", "copy",
                     "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(tmp)], check=True)

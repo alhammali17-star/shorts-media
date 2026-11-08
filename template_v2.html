@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<!-- v2 (2026-11-08, owner-approved): 13 s, no empty intro. Frame 0 already shows the hook banner
+     AND the puzzle, countdown 1.5-6.5 s, answer 6.6 s, CTA 10.3 s. Kinds: riddle, tip, quiz, odd. -->
+<style>
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:400;src:url(fonts/tajawal-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:700;src:url(fonts/tajawal-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-arabic-800-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E,U+2010-2011,U+204F,U+2E41}
+@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;position:relative;background:#160930;font-family:T,sans-serif;direction:rtl}
+#bg{position:absolute;inset:0;background:linear-gradient(180deg,#160930 0%,#2a1046 45%,#3a1460 80%,#36104e 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(140px)}
+#b1{width:1000px;height:1000px;left:-560px;top:100px;background:rgba(130,28,66,.6)}
+#b2{width:900px;height:900px;left:520px;top:1050px;background:rgba(105,40,190,.58)}
+.layer{position:absolute;left:0;right:0;text-align:center}
+.cx{position:absolute;left:50%}
+#brand{top:100px;width:max-content;height:96px;padding:0 44px;border-radius:48px;background:rgba(255,255,255,.12);color:#f7cb14;font-weight:700;font-size:40px;display:flex;align-items:center;white-space:nowrap}
+#hook{top:250px;width:max-content;white-space:nowrap;padding:24px 54px 16px;border-radius:40px;background:#f7cb14;color:#1a0b2e;font-weight:800;font-size:76px;line-height:1.2;text-align:center;box-shadow:0 14px 0 #b8940a}
+.box{position:absolute;left:73px;right:73px;border-radius:44px;background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.08));border:3px solid rgba(255,255,255,.18)}
+#card{top:470px;height:400px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff;font-weight:800;font-size:66px;line-height:108px;padding:0 50px;text-align:center}
+#ring{position:absolute;left:410px;top:950px;width:260px;height:260px}
+#num{position:absolute;left:410px;top:950px;width:260px;height:260px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:112px;font-weight:800;padding-top:12px}
+#apill{top:950px;width:max-content;height:110px;padding:0 50px;border-radius:55px;background:#36d19a;color:#14321f;font-size:46px;font-weight:700;display:flex;align-items:center;white-space:nowrap}
+#ans{top:1090px;font-size:112px;font-weight:800;color:#36d19a}
+#expl{top:1250px;font-size:50px;font-weight:400;color:#e2d6f1;line-height:92px;padding:0 110px}
+#cta1{top:640px;font-size:110px;font-weight:800;color:#f7cb14}
+#cta2{top:800px;font-size:64px;font-weight:700;color:#fff}
+#cta3{top:950px;width:max-content;height:128px;padding:0 60px;border-radius:64px;background:#f3415f;color:#fff;font-size:48px;font-weight:700;display:flex;align-items:center;white-space:nowrap}
+#bar{position:absolute;right:90px;top:1600px;height:12px;border-radius:6px;background:#f9cc13}
+/* quiz */
+body.quiz #card{height:330px;font-size:62px;line-height:100px}
+.opt{position:absolute;left:120px;right:120px;height:130px;border-radius:65px;background:rgba(255,255,255,.1);border:3px solid rgba(255,255,255,.22);display:none;align-items:center;color:#fff;font-size:56px;font-weight:700;padding:0 24px 0 40px}
+body.quiz .opt{display:flex}
+.opt .l{width:92px;height:92px;border-radius:50%;background:#f7cb14;color:#1a0b2e;display:flex;align-items:center;justify-content:center;font-size:50px;font-weight:800;margin-left:32px;flex:none;padding-top:6px}
+#o0{top:830px}#o1{top:985px}#o2{top:1140px}
+body.quiz #ring,body.quiz #num{top:1300px;left:430px;width:220px;height:220px}
+body.quiz #expl{top:1310px}
+/* odd */
+#grid{position:absolute;left:73px;right:73px;top:450px;height:660px;border-radius:44px;background:linear-gradient(135deg,rgba(255,255,255,.14),rgba(255,255,255,.06));border:3px solid rgba(255,255,255,.16);display:none;padding:26px;direction:ltr}
+body.odd #grid{display:grid} body.odd #card{display:none}
+#grid span{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:74px;border-radius:22px}
+#grid span.hit{background:#36d19a;color:#14321f;box-shadow:0 0 0 8px rgba(54,209,154,.35)}
+body.odd #ring,body.odd #num{top:1170px;left:430px;width:220px;height:220px}
+body.odd #apill{top:1170px} body.odd #ans{top:1300px;font-size:96px} body.odd #expl{top:1440px}
+/* tip */
+body.tip #card{height:300px}
+#steps{top:830px;color:#fff;font-weight:700;font-size:56px;line-height:76px;padding:0 90px}
+#steps div{margin-bottom:34px} #steps b{color:#f7cb14}
+</style>
+</head>
+<body>
+<div id="bg"></div><div class="blob" id="b1"></div><div class="blob" id="b2"></div>
+<div class="cx" id="brand">شغّل مخك</div>
+<div class="cx" id="hook"></div>
+<div class="box" id="card"></div>
+<div id="grid"></div>
+<div class="opt" id="o0"><span class="l">أ</span><span class="t"></span></div>
+<div class="opt" id="o1"><span class="l">ب</span><span class="t"></span></div>
+<div class="opt" id="o2"><span class="l">ج</span><span class="t"></span></div>
+<div class="layer" id="steps"></div>
+<svg id="ring" viewBox="0 0 300 300"><circle cx="150" cy="150" r="128" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="20"/><circle id="arc" cx="150" cy="150" r="128" fill="none" stroke="#f9cc13" stroke-width="20" stroke-linecap="round" transform="rotate(-90 150 150)"/></svg>
+<div id="num"></div>
+<div class="cx" id="apill">الجواب</div>
+<div class="layer" id="ans"></div><div class="layer" id="expl"></div>
+<div class="layer" id="cta1">جبتها صح؟</div><div class="layer" id="cta2">اكتب في التعليقات</div><div class="cx" id="cta3">اشترك لسؤال جديد كل يوم</div>
+<div id="bar"></div>
+<script>
+const $=id=>document.getElementById(id);
+const C=2*Math.PI*128, T=13, CD0=1.5, CD1=6.5, REV=6.6, OUT=10.2, CTA=10.3;
+let K='riddle', CORRECT=0;
+const noEmoji=s=>(s||'').replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu,'').trim();
+function clamp(x){return Math.max(0,Math.min(1,x))}
+function ease(x){x=clamp(x);return 1-Math.pow(1-x,3)}
+// visible from a to b; a<=0 means already fully visible on frame 0 (no fade-in)
+function win(t,a,b,fi,fo){if(t<a||t>b) return 0; const i=a<=0?1:ease((t-a)/fi); return Math.min(i, fo?ease((b-t)/fo):1);}
+function show(el,o,dy,cx,sc){el.style.opacity=o;el.style.transform=(cx?'translateX(-50%) ':'')+`translateY(${(1-o)*dy}px)`+(sc?` scale(${sc})`:'');}
+window.setData=function(d){
+  K=d.kind||(d.options?'quiz':'riddle'); document.body.className=K;
+  const def={riddle:'90% يغلطوا في اللغز هذا',quiz:'أغلب الناس تطيح في السؤال هذا',odd:'عيونك قوية؟ لقى المختلف',tip:'حيلة تخلي مخك يخدم أحسن'};
+  const h=$('hook'); h.textContent=noEmoji(d.hook)||def[K];
+  let fs=76; while(h.offsetWidth>980&&fs>44){fs-=2;h.style.fontSize=fs+'px';} // keep the hook on one line
+  $('card').innerHTML=(d.question||[]).map(l=>`<div>${l}</div>`).join('');
+  $('ans').textContent=d.answer||'';
+  $('expl').innerHTML=(d.explanation||[]).map(l=>`<div>${l}</div>`).join('');
+  $('arc').setAttribute('stroke-dasharray',C);
+  if(d.apill) $('apill').textContent=d.apill;
+  const cta={riddle:['جبتها صح؟','اكتب جوابك في التعليقات','اشترك للغز جديد كل يوم'],quiz:['جبتها صح؟','اكتب الحرف في التعليقات','اشترك لسؤال جديد كل يوم'],
+             odd:['كم ثانية خذيت؟','اكتبها في التعليقات','اشترك لتحدي جديد كل يوم'],tip:['احفظ الفيديو','وجرّبها الليلة','اشترك لنصيحة جديدة كل يوم']}[K];
+  const c=d.cta||cta; $('cta1').textContent=c[0];$('cta2').textContent=c[1];$('cta3').textContent=c[2];
+  if(K==='quiz'){d.options.forEach((o,i)=>{$('o'+i).querySelector('.t').textContent=o;}); CORRECT=d.correct;}
+  if(K==='odd'){const g=d.grid,el=$('grid');el.style.gridTemplateColumns=`repeat(${g.cols},1fr)`;el.style.gridTemplateRows=`repeat(${g.rows},1fr)`;
+    let h='';for(let r=0;r<g.rows;r++)for(let c=0;c<g.cols;c++){const o=(r===g.r&&c===g.c);h+=`<span${o?' id="hitcell"':''}>${o?g.odd:g.base}</span>`}el.innerHTML=h;}
+  if(K==='tip') $('steps').innerHTML=(d.steps||[]).map((l,i)=>`<div><b>${i+1}.</b> ${l}</div>`).join('');
+};
+window.renderAt=function(t){
+  // hook: on screen from frame 0, small punch in the first 0.6 s, gone at the CTA
+  const pulse=t<0.6?1+0.07*Math.sin(Math.PI*t/0.6):1;
+  show($('brand'),win(t,0,OUT,0,0.25),0,true);
+  show($('hook'),win(t,0,OUT,0,0.25),0,true,pulse);
+  show($('card'),win(t,0,OUT,0,0.25),0);
+  show($('grid'),win(t,0,OUT,0,0.25),0);
+  const hc=$('hitcell'); if(hc) hc.className=t>=REV?'hit':'';
+  for(let i=0;i<3;i++){const el=$('o'+i); let o=win(t,0.25+i*0.25,OUT,0.3,0.25);
+    if(t>=REV){ if(i===CORRECT){el.style.background='#36d19a';el.style.borderColor='#36d19a';el.style.color='#14321f';} else o*=0.3; }
+    else{el.style.background='rgba(255,255,255,.1)';el.style.borderColor='rgba(255,255,255,.22)';el.style.color='#fff';}
+    show(el,o,20);}
+  const steps=$('steps').children;
+  for(let i=0;i<steps.length;i++) show(steps[i],win(t,0.9+i*0.9,OUT,0.4,0.25),25);
+  const cdOn=K!=='tip'?win(t,CD0,CD1,0.25,0.15):0;
+  $('ring').style.opacity=cdOn; $('num').style.opacity=cdOn;
+  if(t>=CD0){ $('arc').setAttribute('stroke-dashoffset',C*(1-clamp((CD1-t)/(CD1-CD0)))); $('num').textContent=Math.min(5,Math.max(1,Math.ceil(CD1-t))); }
+  const rev=K==='tip'?0:1;
+  show($('apill'),rev*(K==='quiz'?0:win(t,REV,OUT,0.3,0.25)),25,true);
+  show($('ans'),rev*(K==='quiz'?0:win(t,REV+0.3,OUT,0.35,0.25)),35);
+  show($('expl'),rev*win(t,REV+0.6,OUT,0.35,0.25),25);
+  show($('cta1'),win(t,CTA,T+1,0.4,0),40);
+  show($('cta2'),win(t,CTA+0.3,T+1,0.4,0),30);
+  show($('cta3'),win(t,CTA+0.55,T+1,0.4,0),30,true);
+  $('bar').style.width=(900*clamp(t/T))+'px';
+};
+</script>
+</body>
+</html>

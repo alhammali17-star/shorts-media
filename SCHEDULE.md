@@ -2,9 +2,10 @@
 
 | Time | Format |
 |---|---|
-| 13:00 | riddle |
 | 16:00 | tip (the owner asked for tips at 16:00) |
 | 19:00 | quiz on odd-numbered days of the month, odd (لقى المختلف) on even days |
+
+**2026-11-08 — owner approved: 2 posts a day, 13:00 riddle slot dropped** (see LEARNINGS.md). Riddles stay in the bank; one can replace a tip/quiz only after a Sunday meeting decides it.
 
 ## Why these times
 - Metricool best-time data for this YouTube account (checked 2026-11-04): weekday peak 16:00 ≈12k, 13:00 ≈9.5k, 19:00 ≈7.2k, 23:00 only ≈2.8k.
