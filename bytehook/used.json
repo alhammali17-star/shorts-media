@@ -1,5 +1,7 @@
 [
   {"id": "sim_swap_sms_2fa", "date": "2026-11-05", "hook": "Your SMS login code can be stolen.", "category": "CYBERSECURITY", "scheduled": "published 2026-11-05 22:50"},
   {"id": "fake_qr_code_stickers", "date": "2026-11-06", "hook": "Don't scan that parking QR code.", "category": "CYBERSECURITY", "scheduled": "2026-11-06 19:00"},
-  {"id": "windows_clipboard_history", "date": "2026-11-06", "hook": "Your PC remembers all you copy.", "category": "TECH", "scheduled": "2026-11-06 22:00"}
+  {"id": "windows_clipboard_history", "date": "2026-11-06", "hook": "Your PC remembers all you copy.", "category": "TECH", "scheduled": "2026-11-06 22:00"},
+  {"id": "password_manager_spots_fake_sites", "date": "2026-11-08", "hook": "Your password manager spots fake sites.", "category": "CYBERSECURITY", "scheduled": "2026-11-08 19:00"},
+  {"id": "reopen_closed_tab_ctrl_shift_t", "date": "2026-11-08", "hook": "Closed a tab? Get it back.", "category": "TECH", "scheduled": "2026-11-08 22:00"}
 ]

@@ -1,0 +1,18 @@
+{
+  "id": "reopen_closed_tab_ctrl_shift_t",
+  "title": "Closed a tab by mistake? Bring it back #shorts",
+  "description": "In Chrome, Edge and Firefox, Ctrl + Shift + T reopens the tab you just closed. Press it again to keep going back. On a Mac it's Cmd + Shift + T.\n\n#techtips #chrome #pctips #productivity #shorts",
+  "tag": "TECH TRICK",
+  "hook": "Closed a tab?<br>Get it <em>back</em>.",
+  "sub": "Most people never use this...",
+  "points_title": "Reopen closed tabs",
+  "points": [
+    {"t": "Press Ctrl+Shift+T", "d": "your last closed tab comes right back."},
+    {"t": "Press it again", "d": "it keeps reopening older closed tabs."},
+    {"t": "Using a Mac?", "d": "it's Cmd + Shift + T instead."}
+  ],
+  "fix_label": "THE SHORTCUT",
+  "fix": "Press <span style=\"color:#39ff88\">Ctrl + Shift + T</span><br>to undo a closed tab",
+  "fix_sub": "Works in Chrome, Edge and Firefox.",
+  "question": "Did you know this shortcut? <span>Yes or No</span> in the comments"
+}
