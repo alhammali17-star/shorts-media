@@ -179,8 +179,9 @@
       "kind": "odd",
       "id": "odd_96_69",
       "title": "لقى الرقم المختلف في 5 ثواني 👀",
-      "file": "videos/2026-11-08_odd.mp4",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-2157187641700759081"
+      "file": "videos/2026-11-08_odd_v2.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-2157187641700759081",
+      "template": "template_v2.html"
     }
   ]
 }
