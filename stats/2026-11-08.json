@@ -1,0 +1,274 @@
+{
+ "date": "2026-11-08",
+ "takenAt": "2026-11-08T17:50Z",
+ "source": "vidIQ user_videos + user_channels",
+ "channel": {
+  "subs": 23,
+  "views": 7374,
+  "videos": 24
+ },
+ "previous": {
+  "date": "2026-11-03",
+  "subs": 21,
+  "views": 4388,
+  "source": "office reports/latest"
+ },
+ "delta": {
+  "subs": 2,
+  "views": 2986
+ },
+ "week": {
+  "from": "2026-11-02",
+  "to": "2026-11-08",
+  "videos": 16,
+  "views": 2980,
+  "likes": 34,
+  "median": 3.0
+ },
+ "videos": [
+  {
+   "id": "obiqjIEZQzQ",
+   "date": "2026-11-08",
+   "slot": "19:00",
+   "kind": "odd",
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Qb4mEJD0T_4",
+   "date": "2026-11-08",
+   "slot": "16:00",
+   "kind": "tip",
+   "views": 0,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "vl4f6-Ba_UE",
+   "date": "2026-11-08",
+   "slot": "13:00",
+   "kind": "riddle",
+   "views": 0,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "TFiL1Pl48QA",
+   "date": "2026-11-07",
+   "slot": "19:00",
+   "kind": "quiz",
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "rB5BvJXZfRg",
+   "date": "2026-11-07",
+   "slot": "16:00",
+   "kind": "tip",
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "7gptaFZGD3Q",
+   "date": "2026-11-07",
+   "slot": "13:00",
+   "kind": "riddle",
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "q5Vm6VYB6Uk",
+   "date": "2026-11-06",
+   "slot": "19:00",
+   "kind": "odd",
+   "views": 482,
+   "likes": 5,
+   "comments": 0
+  },
+  {
+   "id": "jL0VQADb08k",
+   "date": "2026-11-06",
+   "slot": "16:00",
+   "kind": "tip",
+   "views": 9,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "xQ4eD-gkGfU",
+   "date": "2026-11-06",
+   "slot": "13:00",
+   "kind": "riddle",
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "5ao93MEXb9c",
+   "date": "2026-11-05",
+   "slot": "19:00",
+   "kind": "quiz",
+   "views": 6,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "3qiBG01a62w",
+   "date": "2026-11-05",
+   "slot": "16:00",
+   "kind": "tip",
+   "views": 887,
+   "likes": 6,
+   "comments": 0
+  },
+  {
+   "id": "1xdfxkGZKgk",
+   "date": "2026-11-05",
+   "slot": "13:00",
+   "kind": "riddle",
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "id": "oTOS9e9aTgY",
+   "date": "2026-11-04",
+   "slot": "21:00",
+   "kind": "quiz",
+   "views": 1063,
+   "likes": 15,
+   "comments": 1
+  },
+  {
+   "id": "sx6TiaNtDvo",
+   "date": "2026-11-04",
+   "slot": "18:00",
+   "kind": "riddle",
+   "views": 3,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "5ucwZ-j40s8",
+   "date": "2026-11-03",
+   "slot": "23:00",
+   "kind": "riddle",
+   "views": 15,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "e4MGqLoaQFo",
+   "date": "2026-11-03",
+   "slot": "18:50",
+   "kind": "riddle",
+   "views": 505,
+   "likes": 6,
+   "comments": 1
+  }
+ ],
+ "older": [
+  {
+   "id": "3gbhGKD4Z2A",
+   "date": "2026-10-23",
+   "views": 19,
+   "likes": 2,
+   "comments": 2
+  },
+  {
+   "id": "CFP7KGZqbc8",
+   "date": "2026-10-22",
+   "views": 539,
+   "likes": 7,
+   "comments": 6
+  },
+  {
+   "id": "5I_x3ATShNU",
+   "date": "2026-10-20",
+   "views": 1216,
+   "likes": 12,
+   "comments": 11
+  },
+  {
+   "id": "wXZauQoYTZs",
+   "date": "2026-10-19",
+   "views": 681,
+   "likes": 7,
+   "comments": 2
+  },
+  {
+   "id": "kzTP8TqWkGQ",
+   "date": "2026-10-19",
+   "views": 143,
+   "likes": 4,
+   "comments": 1
+  },
+  {
+   "id": "ikYK-JUsBgc",
+   "date": "2026-10-18",
+   "views": 664,
+   "likes": 8,
+   "comments": 9
+  },
+  {
+   "id": "pFKhFD17tqU",
+   "date": "2026-10-15",
+   "views": 32,
+   "likes": 2,
+   "comments": 0
+  },
+  {
+   "id": "wGoLrRhpdws",
+   "date": "2026-10-14",
+   "views": 1104,
+   "likes": 18,
+   "comments": 8
+  }
+ ],
+ "byKind": {
+  "odd": {
+   "n": 2,
+   "views": [
+    3,
+    482
+   ],
+   "median": 242.5
+  },
+  "tip": {
+   "n": 4,
+   "views": [
+    0,
+    1,
+    9,
+    887
+   ],
+   "median": 5.0
+  },
+  "riddle": {
+   "n": 7,
+   "views": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    15,
+    505
+   ],
+   "median": 2
+  },
+  "quiz": {
+   "n": 3,
+   "views": [
+    1,
+    6,
+    1063
+   ],
+   "median": 6
+  }
+ }
+}
