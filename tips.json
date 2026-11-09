@@ -157,5 +157,135 @@
    "دير وحدة وكمّلها، بعدين الثانية"
   ],
   "source": "task-switching costs (Rubinstein, Meyer & Evans 2001)"
+ },
+ {
+  "id": "aloud",
+  "question": [
+   "تقرا وتنسى",
+   "بسرعة؟"
+  ],
+  "steps": [
+   "اقرا الحاجة المهمة بصوت",
+   "حتى لو بصوت واطي",
+   "مخك يفكر اللي قلته أكثر"
+  ],
+  "source": "production effect (MacLeod et al. 2010)"
+ },
+ {
+  "id": "pretest",
+  "question": [
+   "تبي تفهم درس",
+   "جديد أسرع؟"
+  ],
+  "steps": [
+   "قبل ما تقرا خمّن الأجوبة",
+   "حتى لو غلطت عادي",
+   "بعدها اقرا وصحّح روحك"
+  ],
+  "source": "pretesting effect (Richland, Kornell & Kao 2009)"
+ },
+ {
+  "id": "interleave",
+  "question": [
+   "تحل تمارين",
+   "وتنساها في الامتحان؟"
+  ],
+  "steps": [
+   "ما تحلش نوع واحد ورا بعض",
+   "خلّط الأنواع مع بعض",
+   "مخك يتعلم يفرّق بينهم"
+  ],
+  "source": "interleaved practice (Rohrer & Taylor 2007; Dunlosky et al. 2013)"
+ },
+ {
+  "id": "ifthen",
+  "question": [
+   "تقول بنبدا",
+   "وما تبداش؟"
+  ],
+  "steps": [
+   "حدد الوقت والمكان",
+   "قول: لو صار كذا ندير كذا",
+   "مثال: بعد العشا نقرا صفحة"
+  ],
+  "source": "implementation intentions (Gollwitzer 1999)"
+ },
+ {
+  "id": "why",
+  "question": [
+   "تبي تفهم المعلومة",
+   "مش بس تحفظها؟"
+  ],
+  "steps": [
+   "اسأل روحك: علاش؟",
+   "جاوب بكلامك انت",
+   "اربطها بحاجة تعرفها"
+  ],
+  "source": "elaborative interrogation (Dunlosky et al. 2013)"
+ },
+ {
+  "id": "dualcode",
+  "question": [
+   "المعلومة ما تثبتش",
+   "في راسك؟"
+  ],
+  "steps": [
+   "اكتبها بكلمات قصيرة",
+   "وارسم جنبها رسمة بسيطة",
+   "الكلمة والصورة يثبتوا مع بعض"
+  ],
+  "source": "dual coding theory (Paivio 1971)"
+ },
+ {
+  "id": "acronym",
+  "question": [
+   "عندك قائمة",
+   "تبي تحفظها؟"
+  ],
+  "steps": [
+   "خوذ أول حرف من كل كلمة",
+   "ركّب منهم كلمة وحدة",
+   "الكلمة ترجّعلك القائمة كاملة"
+  ],
+  "source": "first-letter mnemonics (acronyms)"
+ },
+ {
+  "id": "story",
+  "question": [
+   "تحفظ حوايج",
+   "وتنسى ترتيبهم؟"
+  ],
+  "steps": [
+   "اربطهم في قصة غريبة",
+   "كل حاجة تدير في اللي بعدها",
+   "كل ما كانت أغرب تثبت أكثر"
+  ],
+  "source": "link / story mnemonic method (Bower & Clark 1969)"
+ },
+ {
+  "id": "habitstack",
+  "question": [
+   "تبي تبدا عادة",
+   "جديدة وتثبت؟"
+  ],
+  "steps": [
+   "اربطها بعادة عندك من قبل",
+   "مثال: بعد القهوة نقرا صفحة",
+   "العادة القديمة تفكّرك بالجديدة"
+  ],
+  "source": "habit stacking / implementation intentions (Gollwitzer 1999; Fogg 2019)"
+ },
+ {
+  "id": "skim",
+  "question": [
+   "قدامك فصل",
+   "كامل تقراه؟"
+  ],
+  "steps": [
+   "أول حاجة شوف العناوين",
+   "والصور والملخص",
+   "بعدها اقرا، مخك عنده خريطة"
+  ],
+  "source": "SQ3R survey step (Robinson 1946)"
  }
 ]
