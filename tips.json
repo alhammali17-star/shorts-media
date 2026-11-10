@@ -117,7 +117,8 @@
    "مش مقلوب على الطاولة",
    "وجوده جنبك ياكل من تركيزك"
   ],
-  "source": "Ward et al. 2017, 'Brain Drain'"
+  "source": "Ward et al. 2017, 'Brain Drain'",
+  "hold": "2026-11-10 هدى: دراسة Ward 2017 ما تكررتش (Ruiz Pardo & Minda 2022، Acta Psychologica) — معلومة مش مؤكدة"
  },
  {
   "id": "loci",
@@ -128,9 +129,9 @@
   "steps": [
    "تخيّل دارك",
    "حط كل حاجة في مكان منها",
-   "امشي في الدار في خيالك وانت تسترجع"
+   "امشي فيها بخيالك وتلقاهم"
   ],
-  "source": "method of loci (memory palace)"
+  "source": "method of loci (Dresler et al. 2017, Neuron)"
  },
  {
   "id": "names",
