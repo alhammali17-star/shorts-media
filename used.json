@@ -204,6 +204,28 @@
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-3293382683873359510",
    "template": "template_v2.html",
    "hook": "قليل اللي يجاوبوها صح"
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "16:00",
+   "kind": "tip",
+   "id": "loci",
+   "title": "حيلة دارك… تحفظ بيها أي قائمة بالترتيب 🏠",
+   "file": "videos/2026-11-10_loci.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-7337390654785237318",
+   "template": "template_v2.html",
+   "hook": "حط كل حاجة في مكان"
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "19:00",
+   "kind": "odd",
+   "id": "odd_9_8",
+   "title": "عيونك قوية؟ لقى الرقم المختلف بسرعة 👀",
+   "file": "videos/2026-11-10_odd.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-6673767992052856594",
+   "template": "template_v2.html",
+   "hook": "لقى المختلف في 5 ثواني"
   }
  ]
 }
