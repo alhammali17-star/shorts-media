@@ -248,7 +248,9 @@
    "title": "عندك 6 بيضات… كم قعدت؟ أغلب الناس تغلط 🥚",
    "file": "videos/2026-11-12_bedat.mp4",
    "template": "template_v3.html",
-   "hook": "أغلب الناس تجاوب غلط"
+   "hook": "أغلب الناس تجاوب غلط",
+   "url": "https://www.youtube.com/watch?v=ncQJByuOJ2E",
+   "postId": "7cd4e59a-cfdd-4a7e-b36d-f517d4fc374a"
   },
   {
    "date": "2026-11-12",
@@ -260,7 +262,8 @@
    "template": "template_v2.html",
    "hook": "لقى المختلف في 5 ثواني",
    "note": "2026-11-10 19:00 failed on Metricool (account limit); re-scheduled via vidIQ",
-   "postId": "4c46bbda-544b-4b7b-85f6-27e541132a6c"
+   "postId": "4c46bbda-544b-4b7b-85f6-27e541132a6c",
+   "url": "https://www.youtube.com/watch?v=hhFe4cYQL8o"
   }
  ]
 }
