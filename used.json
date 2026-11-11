@@ -44,18 +44,18 @@
   },
   {
    "date": "2026-11-03",
-   "slot": "23:00",
-   "id": "dik",
-   "title": "سؤال سهل لكن أغلب الناس تطيح فيه! 🐓",
-   "file": "videos/2026-11-03_dik.mp4"
-  },
-  {
-   "date": "2026-11-03",
    "slot": "18:50",
    "id": "del",
    "title": "اقرا السؤال كويس… فيه فخ! 🌊",
    "file": "videos/2026-11-03_del_music.mp4",
    "note": "same riddle re-posted with music at owner's request"
+  },
+  {
+   "date": "2026-11-03",
+   "slot": "23:00",
+   "id": "dik",
+   "title": "سؤال سهل لكن أغلب الناس تطيح فيه! 🐓",
+   "file": "videos/2026-11-03_dik.mp4"
   },
   {
    "date": "2026-11-04",
@@ -66,15 +66,6 @@
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-7151163657744202950"
   },
   {
-   "date": "2026-11-05",
-   "slot": "13:00",
-   "id": "sa3a",
-   "title": "أغلب الناس تطيح في السؤال هذا… وانت؟ ⏰",
-   "file": "videos/2026-11-04_sa3a.mp4",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302",
-   "note": "moved from 23:00 (low audience) on 2026-11-04"
-  },
-  {
    "date": "2026-11-04",
    "slot": "21:00",
    "id": "mukh_taqa",
@@ -82,6 +73,15 @@
    "title": "سؤال على مخك نفسه… 90% يغلطوا فيه! 🧠",
    "file": "videos/2026-11-04_mukh_taqa.mp4",
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=1582630064518479875"
+  },
+  {
+   "date": "2026-11-05",
+   "slot": "13:00",
+   "id": "sa3a",
+   "title": "أغلب الناس تطيح في السؤال هذا… وانت؟ ⏰",
+   "file": "videos/2026-11-04_sa3a.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=6404934176742788302",
+   "note": "moved from 23:00 (low audience) on 2026-11-04"
   },
   {
    "date": "2026-11-05",
@@ -217,26 +217,16 @@
    "hook": "حط كل حاجة في مكان"
   },
   {
-   "date": "2026-11-10",
-   "slot": "19:00",
-   "kind": "odd",
-   "id": "odd_9_8",
-   "title": "عيونك قوية؟ لقى الرقم المختلف بسرعة 👀",
-   "file": "videos/2026-11-10_odd.mp4",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-6673767992052856594",
-   "template": "template_v2.html",
-   "hook": "لقى المختلف في 5 ثواني"
-  },
-  {
    "date": "2026-11-11",
-   "slot": "16:00",
+   "slot": "16:10",
    "kind": "tip",
    "id": "names",
    "title": "تنسى أسامي الناس؟ 3 خطوات تثبّت أي اسم 🧠",
    "file": "videos/2026-11-11_names.mp4",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-928772464606362795",
    "template": "template_v2.html",
-   "hook": "تنسى الأسامي؟ جرّب هذي"
+   "hook": "تنسى الأسامي؟ جرّب هذي",
+   "url": "https://www.youtube.com/watch?v=0wBHRn6TEAM",
+   "postId": "fdb04411-c462-4ef9-8cfd-cffd215c9cdc"
   },
   {
    "date": "2026-11-11",
@@ -245,9 +235,22 @@
    "id": "dhaw_shams",
    "title": "ضو الشمس قداش ياخذ باش يوصلنا؟ جاوب قبل الوقت ☀️",
    "file": "videos/2026-11-11_dhaw_shams.mp4",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-1672105110831150628",
    "template": "template_v2.html",
-   "hook": "جاوب قبل ما يخلص الوقت"
+   "hook": "جاوب قبل ما يخلص الوقت",
+   "url": "https://www.youtube.com/watch?v=oBLpjZfo2CU",
+   "postId": "d5c5a499-0505-4558-8342-6b23bebdef9e"
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "19:00",
+   "kind": "odd",
+   "id": "odd_9_8",
+   "title": "عيونك قوية؟ لقى الرقم المختلف بسرعة 👀",
+   "file": "videos/2026-11-10_odd.mp4",
+   "template": "template_v2.html",
+   "hook": "لقى المختلف في 5 ثواني",
+   "note": "2026-11-10 19:00 failed on Metricool (account limit); re-scheduled via vidIQ",
+   "postId": "4c46bbda-544b-4b7b-85f6-27e541132a6c"
   }
  ]
 }

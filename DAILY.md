@@ -12,7 +12,10 @@ Formats (`kind` / bank):
 Never edit template.html or template_quiz.html; a new format gets its own template file only after the Sunday meeting approves it.
 
 ## Before making anything
-Call Metricool `getScheduledPosts` (blogId 7526793, today, Africa/Tripoli). A slot that already has a post is filled — make videos only for the empty slots (e.g. on 2026-11-05 the 13:00 riddle «الساعة» is already scheduled).
+1. **Yesterday really went out?** `vidiq_social_post_list` (free; from yesterday 00:00 to today 23:59 Africa/Tripoli, platform YOUTUBE). Any destination of yesterday with status `failed`/`cancelled` = a missed post: tell the owner in the final message with the failure reason, remove its entry from `used.json.published`, and give −30 XP to the publisher only if the failure was ours. Do not re-post it on top of today's slots; its video may fill the next free slot of the same format.
+2. **Today's filled slots:** the same list — a destination `scheduled`/`completed` at a slot time today fills that slot. Make videos only for the empty slots.
+
+**Publishing route (2026-11-11): vidIQ social posts, NOT Metricool.** Metricool's free plan stops at 20 posts a month: the 21st (2026-11-10 19:00) failed with "You have reached your Metricool account limit" and nobody noticed. vidIQ publishes to YouTube for 0 credits. Metricool is used read-only (best-time data) unless the owner upgrades it.
 
 ## Team, in order (each one: status working → do the work → done/error, per OFFICE.md)
 1. **رحاب — trend researcher** (free sources only: WebSearch for current Arabic brain/quiz/tips Shorts trends, hooks, formats). Write 3 short findings in her `task`/`thinking`. No vidIQ credits.
@@ -24,7 +27,7 @@ Call Metricool `getScheduledPosts` (blogId 7526793, today, Africa/Tripoli). A sl
    - Titles ≤ 70 chars, one emoji, not one of the last 5 titles. Riddle/quiz: trap-style hooks that worked (LEARNINGS.md). Odd: e.g. "لقى الحرف المختلف في 5 ثواني 👀". Tip: e.g. "حيلة صغيرة تخلي مخك يحفظ أي حاجة 🧠".
    - Description by kind — riddle: `جاوب في التعليقات قبل ما يطلع الحل 👇\n#shorts #لغز #شغل_مخك #تحدي`; quiz: `اختار أ ولا ب ولا ج… واكتب الحرف في التعليقات قبل ما يطلع الحل 👇\n#shorts #شغل_مخك #سؤال #معلومات #تحدي`; odd: `كم ثانية خذيت؟ 👇\n#shorts #تحدي #اختبار_نظر #شغل_مخك`; tip: `احفظ الفيديو وجرّبها 👇\n#shorts #نصائح #تطوير_الذات #شغل_مخك`.
    - Commit + push the mp4s and updated banks/used.json to `main` (pull --rebase first); confirm each `https://raw.githubusercontent.com/alhammali17-star/shorts-media/main/videos/<file>.mp4` returns 200.
-   - Before scheduling, `getScheduledPosts` for today: never create a second post in a slot that already has one.
-   - Metricool `createScheduledPost` per video: blogId `7526793`, providers youtube, youtubeData {title, type:"short", privacy:"public", madeForKids:false, category: tip "EDUCATION", others "ENTERTAINMENT"}, text = description, media = [raw URL], autoPublish true, at that slot's time today (Africa/Tripoli). A slot already past → skip it today, never stack posts.
-   - Append to `used.json.published`: {date, slot, kind, id, title, file, plannerUrl}; commit + push.
+   - Before scheduling, `vidiq_social_post_list` for today: never create a second post in a slot that already has one.
+   - Per video (all free): `vidiq_video_upload` {url: raw URL} → uploadId; `vidiq_social_post_draft_create` with one destination {platform "YOUTUBE", platformAccountId "UCbAmQO4sOpHb4g4GqR812lA", title, text = description, privacyStatus "public", categoryId (tip 27 Education, others 24 Entertainment), publishAt = the slot time today in UTC (Tripoli −2 h), media [{type "video", id: uploadId}]}; then `vidiq_social_post_publish` {postId, revision} (the owner's standing approval covers these daily Shorts); then `vidiq_social_post_status` until `completed` and keep the `postUrl`. The video sits private on YouTube and goes public at publishAt. A slot already past → skip it today, never stack posts. If the status is `failed` or asks for YouTube verification, stop and tell the owner exactly that.
+   - Append to `used.json.published`: {date, slot, kind, id, title, file, url (the YouTube postUrl), postId}; commit + push.
 7. End: one batch to the office (statuses, XP, history, log lines) and one short Libyan-Arabic message to the owner: what goes out at which time. If anything failed, say exactly which step and why; never post a broken or repeated video.
