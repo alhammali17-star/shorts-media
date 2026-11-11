@@ -226,6 +226,28 @@
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-6673767992052856594",
    "template": "template_v2.html",
    "hook": "لقى المختلف في 5 ثواني"
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "16:00",
+   "kind": "tip",
+   "id": "names",
+   "title": "تنسى أسامي الناس؟ 3 خطوات تثبّت أي اسم 🧠",
+   "file": "videos/2026-11-11_names.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-928772464606362795",
+   "template": "template_v2.html",
+   "hook": "تنسى الأسامي؟ جرّب هذي"
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "19:00",
+   "kind": "quiz",
+   "id": "dhaw_shams",
+   "title": "ضو الشمس قداش ياخذ باش يوصلنا؟ جاوب قبل الوقت ☀️",
+   "file": "videos/2026-11-11_dhaw_shams.mp4",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7526793&openWithPostUuid=-1672105110831150628",
+   "template": "template_v2.html",
+   "hook": "جاوب قبل ما يخلص الوقت"
   }
  ]
 }
