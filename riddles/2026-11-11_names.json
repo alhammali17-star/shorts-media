@@ -1,0 +1,1 @@
+{"id": "names", "question": ["تنسى أسامي الناس", "أول ما تعرفهم؟"], "steps": ["عاود الاسم وانت تسلّم", "استعمله مرة في الكلام", "اربطه بحاجة تعرفها"], "source": "retrieval practice / elaborative encoding", "kind": "tip", "template": "template_v2.html", "hook": "تنسى الأسامي؟ جرّب هذي"}
