@@ -10,7 +10,9 @@ from playwright.sync_api import sync_playwright
 HERE = pathlib.Path(__file__).resolve().parent
 FPS, DUR = 30, 18.0
 # per-template length and soundtrack (v2 = owner-approved 13 s fast-hook layout, 2026-11-08)
-V2 = {"template_v2.html": (13.0, "track_v2.wav")}
+V2 = {"template_v2.html": (13.0, "track_v2.wav"),
+      # v3 = v2 timeline with a short loop-friendly ending; the same track, cut at 11.5 s by -shortest
+      "template_v3.html": (11.5, "track_v2.wav")}
 
 
 def chrome():

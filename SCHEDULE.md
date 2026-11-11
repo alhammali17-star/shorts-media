@@ -2,8 +2,10 @@
 
 | Time | Format |
 |---|---|
-| 16:00 | tip (the owner asked for tips at 16:00) |
+| 16:00 | trap question (`riddle`, first unused `"type":"trap"` in bank.json) — experiment 2026-11-12 → the Sunday meeting; before that this slot was the daily tip |
 | 19:00 | quiz on odd-numbered days of the month, odd (لقى المختلف) on even days |
+
+**2026-11-11 — owner: "improve and publish without asking, I want a video past 10k".** The 16:00 tip is swapped for a trap question because trap questions are the only type that brought comments (6–11 each in October vs 0–1 on every November video). Tips stay in tips.json; the Sunday meeting compares trap vs tip at 16:00 and decides.
 
 **2026-11-08 — owner approved: 2 posts a day, 13:00 riddle slot dropped** (see LEARNINGS.md). Riddles stay in the bank; one can replace a tip/quiz only after a Sunday meeting decides it.
 

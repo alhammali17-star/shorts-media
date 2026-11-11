@@ -242,6 +242,16 @@
   },
   {
    "date": "2026-11-12",
+   "slot": "16:00",
+   "kind": "riddle",
+   "id": "bedat",
+   "title": "عندك 6 بيضات… كم قعدت؟ أغلب الناس تغلط 🥚",
+   "file": "videos/2026-11-12_bedat.mp4",
+   "template": "template_v3.html",
+   "hook": "أغلب الناس تجاوب غلط"
+  },
+  {
+   "date": "2026-11-12",
    "slot": "19:00",
    "kind": "odd",
    "id": "odd_9_8",
