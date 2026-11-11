@@ -1,0 +1,18 @@
+{
+  "id": "fake_delivery_text_scam",
+  "title": "That \"package on hold\" text is a trap #shorts",
+  "description": "Scam texts say your parcel is stuck and ask you to tap a link to pay a tiny fee or confirm your address. Never tap it: open the courier's official app or type its website yourself and enter your tracking number.\n\n#cybersecurity #scam #smishing #onlinesafety #shorts",
+  "tag": "SCAM ALERT",
+  "hook": "Your package is <em>not</em> on hold.",
+  "sub": "This text is how they get your card...",
+  "points_title": "How the scam works",
+  "points": [
+    {"t": "A fake text", "d": "\"Your parcel is held, update details.\""},
+    {"t": "A tiny fee", "d": "the link asks for a small payment."},
+    {"t": "Your card stolen", "d": "the fake page keeps your card details."}
+  ],
+  "fix_label": "THE FIX",
+  "fix": "Never tap the link.<br><span style=\"color:#39ff88\">Open the courier's app</span> yourself",
+  "fix_sub": "Type your tracking number there instead.",
+  "question": "Ever received this text? <span>Yes or No</span> in the comments"
+}

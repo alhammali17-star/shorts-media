@@ -1,0 +1,18 @@
+{
+  "id": "windows_snip_win_shift_s",
+  "title": "Screenshot any part of your PC screen #shorts",
+  "description": "On Windows 10 and 11, press Windows + Shift + S, then drag over any area. The snip is copied, so you can paste it straight into a chat or email with Ctrl + V.\n\n#windows #pctips #techtips #productivity #shorts",
+  "tag": "TECH TRICK",
+  "hook": "Stop screenshotting the <em>whole</em> screen.",
+  "sub": "Windows has a faster way...",
+  "points_title": "Snip just what you need",
+  "points": [
+    {"t": "Press Win+Shift+S", "d": "the screen dims and a toolbar appears."},
+    {"t": "Drag any area", "d": "only that part gets captured."},
+    {"t": "Paste with Ctrl+V", "d": "it's already copied, ready to share."}
+  ],
+  "fix_label": "THE SHORTCUT",
+  "fix": "Press <span style=\"color:#39ff88\">Win + Shift + S</span><br>and drag to snip",
+  "fix_sub": "Works on Windows 10 and 11.",
+  "question": "Do you use this shortcut? <span>Yes or No</span> in the comments"
+}
