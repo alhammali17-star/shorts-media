@@ -264,6 +264,30 @@
    "note": "2026-11-10 19:00 failed on Metricool (account limit); re-scheduled via vidIQ",
    "postId": "4c46bbda-544b-4b7b-85f6-27e541132a6c",
    "url": "https://www.youtube.com/watch?v=hhFe4cYQL8o"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "16:00",
+   "kind": "riddle",
+   "id": "tis3at",
+   "title": "من 1 لـ 100 كم مرة تكتب الرقم 9؟ اكتب رقمك قبل الحل 🔢",
+   "file": "videos/2026-11-13_tis3at.mp4",
+   "template": "template_v3.html",
+   "hook": "اكتب رقمك قبل الحل",
+   "postId": "0068c318-e761-49c2-b0d1-3f52bccbd11f",
+   "url": "https://www.youtube.com/watch?v=IajswPD7skQ"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "19:00",
+   "kind": "quiz",
+   "id": "sahra",
+   "title": "شن أكبر صحراء حارة في العالم؟ متأكد من جوابك؟ 🏜️",
+   "file": "videos/2026-11-13_sahra.mp4",
+   "template": "template_v3.html",
+   "hook": "متأكد من جوابك؟",
+   "postId": "a23d381a-7d81-4e71-8708-683ead02da1e",
+   "url": "https://www.youtube.com/watch?v=rjEoFj0u66M"
   }
  ]
 }
