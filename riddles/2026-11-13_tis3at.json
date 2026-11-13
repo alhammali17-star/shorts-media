@@ -1,0 +1,1 @@
+{"id": "tis3at", "question": ["من 1 لـ 100", "كم مرة تكتب", "الرقم 9؟"], "answer": "20 مرة!", "explanation": ["10 مرات في الآحاد", "و 10 مرات في العشرات"], "type": "trap", "kind": "riddle", "template": "template_v3.html", "hook": "اكتب رقمك قبل الحل"}
