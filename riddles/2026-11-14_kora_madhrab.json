@@ -1,0 +1,1 @@
+{"id": "kora_madhrab", "question": ["مضرب وكورة بـ 110 دينار", "المضرب أغلى بـ 100", "بقداش الكورة؟"], "answer": "5 دنانير!", "explanation": ["الكورة 5 والمضرب 105", "المجموع 110 والفرق 100"], "type": "trap", "kind": "riddle", "template": "template_v3.html", "hook": "اكتب السعر قبل الحل"}
