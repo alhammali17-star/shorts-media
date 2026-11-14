@@ -288,6 +288,30 @@
    "hook": "متأكد من جوابك؟",
    "postId": "a23d381a-7d81-4e71-8708-683ead02da1e",
    "url": "https://www.youtube.com/watch?v=rjEoFj0u66M"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "16:00",
+   "kind": "riddle",
+   "id": "kora_madhrab",
+   "title": "مضرب وكورة بـ 110 دينار… الكورة بقداش؟ اكتب جوابك ⚾",
+   "file": "videos/2026-11-14_kora_madhrab.mp4",
+   "template": "template_v3.html",
+   "hook": "اكتب السعر قبل الحل",
+   "postId": "05463053-004f-40aa-b206-148895f9a847",
+   "url": "https://www.youtube.com/watch?v=JumaBIYTuM8"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "19:00",
+   "kind": "odd",
+   "id": "odd_sh_s",
+   "title": "لقى الحرف المختلف في 5 ثواني 👀",
+   "file": "videos/2026-11-14_odd.mp4",
+   "template": "template_v3.html",
+   "hook": "فيه حرف واحد مختلف",
+   "postId": "2a1eeb86-64c7-43a6-a714-f0a9be87350d",
+   "url": "https://www.youtube.com/watch?v=xpj48TYUe8w"
   }
  ]
 }
